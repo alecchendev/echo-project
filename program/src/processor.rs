@@ -38,6 +38,7 @@ impl Processor {
         accounts: &[AccountInfo],
         instruction_data: &[u8],
     ) -> ProgramResult {
+        msg!("Hello world!");
         let instruction = EchoInstruction::try_from_slice(instruction_data)
             .map_err(|_| ProgramError::InvalidInstructionData)?;
 

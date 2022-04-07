@@ -937,6 +937,7 @@ dependencies = [
  "bytemuck",
  "num-derive",
  "num-traits",
+ "solana-logger",
  "solana-program",
  "solana-program-test",
  "solana-sdk",
